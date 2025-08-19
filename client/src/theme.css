@@ -1,0 +1,65 @@
+@import "tailwindcss";
+
+
+/* Theme: Blue (default) */
+.theme-blue {
+    background-color: #e0f2fe !important;
+    color: #1e293b !important;
+}
+
+.theme-blue .ant-card,
+.theme-blue .ant-layout,
+.theme-blue .ant-tabs-content,
+.theme-blue .ant-modal-content {
+    background: #f0f9ff !important;
+    color: #1e293b !important;
+}
+
+.theme-blue .ant-btn-primary {
+    background: #2563eb !important;
+    border-color: #2563eb !important;
+}
+
+/* Theme: Dark */
+.theme-dark {
+    background-color: #18181b !important;
+    color: #fff !important;
+}
+
+.theme-dark .ant-card,
+.theme-dark .ant-layout,
+.theme-dark .ant-tabs-content,
+.theme-dark .ant-modal-content {
+    background: #23272f !important;
+    color: #fff !important;
+}
+
+.theme-dark .ant-btn-primary {
+    background: #334155 !important;
+    border-color: #334155 !important;
+}
+
+/* Theme: Light */
+.theme-light {
+    background-color: #f9fafb !important;
+    color: #222 !important;
+}
+
+.theme-light .ant-card,
+.theme-light .ant-layout,
+.theme-light .ant-tabs-content,
+.theme-light .ant-modal-content {
+    background: #fff !important;
+    color: #222 !important;
+}
+
+.theme-light .ant-btn-primary {
+    background: #2563eb !important;
+    border-color: #2563eb !important;
+}
+
+body.theme-blue,
+body.theme-dark,
+body.theme-light {
+    transition: background 0.3s, color 0.3s;
+}
